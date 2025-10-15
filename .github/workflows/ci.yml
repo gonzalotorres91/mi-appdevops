@@ -23,8 +23,8 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t gonzalo91/mi-app-devops:latest .
+        docker build -t gonzalotorres91/mi-app-devops:latest .
 
     - name: Push Docker image
       run: |
-        docker push gonzalo91/mi-app-devops:latest
+        docker push gonzalotorres91/mi-app-devops:latest
